@@ -1,0 +1,23 @@
+nav#main-nav {
+    background-color:chartreuse;
+}
+
+body{
+    margin: 0;
+}
+
+#main-nav > a {
+    color: brown;
+    display: block;
+    padding: .5em;
+    font-size: 1.55rem;
+    text-decoration: none;
+    transition: all ease-in-out 500ms;
+    text-align: center;
+}
+
+#main-nav > a:hover{
+    color: rgb(255, 215, 162);
+    background-color: cadetblue;
+}
+
