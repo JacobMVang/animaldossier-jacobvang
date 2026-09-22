@@ -4,6 +4,8 @@ nav#main-nav {
 
 body{
     margin: 0;
+    background-color: rgb(47, 107, 80);
+    color: brown;
 }
 
 #main-nav > a {
@@ -21,4 +23,13 @@ body{
     background-color: cadetblue;
 }
 
-.card
+img{
+    width: 25em;
+    height: 25rem;
+}
+
+.card{
+    margin: 5em;
+    padding: 5em;
+    align-items:center;
+}
