@@ -1,30 +1,31 @@
 nav#main-nav {
-    background-color: rgb(151, 219, 83);
+    background-color: rgb(73, 95, 129);
     display: flex;
     justify-content: center;
     text-align: center;
-    border-radius: 5em;
 }
 
-body{
+body {
     margin: 0;
-    background-color: rgb(151, 219, 83);
-    color: rgb(45, 23, 0);
+    background-color: rgb(90, 180, 184);
+    color: rgb(0, 0, 0);
 }
 
 #main-nav > a {
-    color: rgb(45, 23, 0);
-    padding: .5em;
-    font-size: 1.55rem;
+    color: rgb(0, 0, 0);
+    padding: .5rem;
+    font-size: 1.5em;
     text-decoration: none;
     transition: all ease-in-out 500ms;
-    border: .5em dashed brown;
-    background-color: chocolate;
+    border: .15em solid rgb(255, 132, 44);
+    background-color: rgb(153, 212, 214);
+    border-radius: .5em;
+    margin: .25em;
 }
 
-#main-nav > a:hover{
+#main-nav > a:hover {
     color: rgb(255, 215, 162);
-    background-color: cadetblue;
+    background-color: rgb(153, 212, 214);
 }
 
 img{
@@ -40,7 +41,8 @@ img{
 
 .card > a > img {
     transition: all ease-in-out 500ms;
-    border: .5em solid chocolate;
+    border: .15em solid chocolate;
+    
 }
 
 .card > a > p {
@@ -55,5 +57,9 @@ img{
 }
 
 footer {
+    text-align: center;
+}
+
+h1,h2 {
     text-align: center;
 }
