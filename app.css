@@ -1,5 +1,5 @@
 nav#main-nav {
-    background-color: rgb(73, 95, 129);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     text-align: center;
@@ -7,7 +7,7 @@ nav#main-nav {
 
 body {
     margin: 0;
-    background-color: rgb(90, 180, 184);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
@@ -16,16 +16,41 @@ body {
     padding: .5rem;
     font-size: 1.5em;
     text-decoration: none;
-    transition: all ease-in-out 500ms;
-    border: .15em solid rgb(255, 132, 44);
-    background-color: rgb(153, 212, 214);
+    transition: all ease-in-out 250ms;
+    border: .15em solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-radius: .5em;
     margin: .25em;
 }
 
-#main-nav > a:hover {
-    color: rgb(255, 215, 162);
-    background-color: rgb(153, 212, 214);
+#home:hover {
+    color: rgb(255, 138, 138);
+    background-color: rgb(0, 0, 0);
+    border: .25em solid rgb(255, 138, 138);
+}
+
+#rhino:hover {
+    color: rgb(255, 253, 138);
+    background-color: rgb(0, 0, 0);
+    border: .25em solid rgb(255, 253, 138);
+}
+
+#hornbill:hover {
+    color: rgb(138, 255, 144);
+    background-color: rgb(0, 0, 0);
+    border: .25em solid rgb(138, 255, 144);
+}
+
+#gharial:hover {
+    color: rgb(138, 247, 255);
+    background-color: rgb(0, 0, 0);
+    border: .25em solid rgb(138, 247, 255);
+}
+
+#nurshark:hover {
+    color: rgb(165, 138, 255);
+    background-color: rgb(0, 0, 0);
+    border: .25em solid rgb(165, 138, 255);
 }
 
 img{
@@ -40,20 +65,23 @@ img{
 }
 
 .card > a > img {
-    transition: all ease-in-out 500ms;
-    border: .15em solid chocolate;
+    transition: all ease-in-out 50ms;
+    border: .5em solid rgb(0, 0, 0);
+    margin: 1em;
     
 }
 
-.card > a > p {
-    text-decoration: none;
-    background-color: chocolate;
-    border: 1em solid chocolate;
+.card-name {
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    border: .25em solid rgb(0, 0, 0);
+    
 }
 
 .card > a > img:hover {
-    border-color: aliceblue;
-    background-color: aliceblue;
+    border-color: rgb(138, 247, 255);
+    background-color: rgb(138, 247, 255);
+    mask-image: element(p) cross-fade(.5);
 }
 
 footer {
@@ -62,4 +90,13 @@ footer {
 
 h1,h2 {
     text-align: center;
+}
+
+#title {
+    font-size: 5em;
+    font-family: fantasy;
+}
+
+#subtitle {
+    font-size: 1.5em;
 }
